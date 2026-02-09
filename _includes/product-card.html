@@ -1,0 +1,23 @@
+<div class="product-card">
+  <div class="product-card-image">
+    {% if product.image %}
+      <img src="{{ product.image | relative_url }}" alt="{{ product.title }}" loading="lazy" />
+    {% else %}
+      <div class="product-placeholder-image">
+        <span>{{ product.title | slice: 0 }}</span>
+      </div>
+    {% endif %}
+  </div>
+  <div class="product-card-content">
+    <h3 class="product-card-title">{{ product.title }}</h3>
+    {% if product.category %}
+      <span class="product-card-category">{{ product.category }}</span>
+    {% endif %}
+    {% if product.description %}
+      <p class="product-card-description">{{ product.description }}</p>
+    {% endif %}
+    {% if product.price %}
+      <span class="product-card-price">{{ product.price }}</span>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,50 @@
+# Products Data File
+# Each entry represents a product displayed in the grid
+
+- title: "Product 001"
+  image: ""
+  category: "Category A"
+  description: "This is a sample product description."
+  price: "$29.99"
+
+- title: "Product 002"
+  image: ""
+  category: "Category A"
+  description: "Another sample product with placeholder data."
+  price: "$39.99"
+
+- title: "Product 003"
+  image: ""
+  category: "Category B"
+  description: "Quality product for your needs."
+  price: "$49.99"
+
+- title: "Product 004"
+  image: ""
+  category: "Category B"
+  description: "Premium quality item for discerning customers."
+  price: "$59.99"
+
+- title: "Product 005"
+  image: ""
+  category: "Category C"
+  description: "Excellent value and quality combined."
+  price: "$34.99"
+
+- title: "Product 006"
+  image: ""
+  category: "Category C"
+  description: "Top-rated product by our customers."
+  price: "$44.99"
+
+- title: "Product 007"
+  image: ""
+  category: "Category A"
+  description: "Popular choice for everyday use."
+  price: "$24.99"
+
+- title: "Product 008"
+  image: ""
+  category: "Category B"
+  description: "Best seller in this category."
+  price: "$54.99"
