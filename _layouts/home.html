@@ -54,14 +54,142 @@ bodyClass: "page-home"
       <h2>Our Products</h2>
       <p>Browse our complete collection of quality products</p>
     </div>
+
+    <!-- Category Filter Bar -->
+    <div class="product-filter-bar" id="productFilterBar">
+      <button class="product-filter-btn active" data-filter="all">All</button>
+      {% assign categories = "" %}
+      {% for product in site.data.products %}
+        {% unless categories contains product.category %}
+          {% if categories != "" %}
+            {% assign categories = categories | append: "|" | append: product.category %}
+          {% else %}
+            {% assign categories = product.category %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+      {% assign sorted_categories = categories | split: "|" | sort %}
+      {% for cat in sorted_categories %}
+        <button class="product-filter-btn" data-filter="{{ cat }}">{{ cat }}</button>
+      {% endfor %}
+    </div>
   </div>
-  <div class="products-grid">
+
+  <div class="products-grid" id="productsGrid">
     {% for product in site.data.products %}
       {% include product-card.html product=product %}
     {% endfor %}
   </div>
+
+  <div class="load-more-container" id="loadMoreContainer">
+    <button class="load-more-btn" id="loadMoreBtn">Load More Products</button>
+    <p class="products-count" id="productsCount"></p>
+  </div>
 </div>
+
+<script>
+(function() {
+  var PAGE_SIZE = 24;
+  var filterBar = document.getElementById('productFilterBar');
+  var grid = document.getElementById('productsGrid');
+  var loadMoreBtn = document.getElementById('loadMoreBtn');
+  var loadMoreContainer = document.getElementById('loadMoreContainer');
+  var productsCount = document.getElementById('productsCount');
+  if (!grid) return;
+
+  var allCards = Array.prototype.slice.call(grid.querySelectorAll('.product-card'));
+  var currentFilter = 'all';
+  var visibleCount = PAGE_SIZE;
+
+  function getFilteredCards() {
+    return allCards.filter(function(card) {
+      return currentFilter === 'all' || card.getAttribute('data-category') === currentFilter;
+    });
+  }
+
+  function render() {
+    var filtered = getFilteredCards();
+    var shown = 0;
+
+    allCards.forEach(function(card) {
+      var matchesFilter = currentFilter === 'all' || card.getAttribute('data-category') === currentFilter;
+      if (matchesFilter && shown < visibleCount) {
+        card.style.display = '';
+        shown++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Update count text
+    productsCount.textContent = 'Showing ' + shown + ' of ' + filtered.length + ' products';
+
+    // Show/hide Load More button
+    if (shown >= filtered.length) {
+      loadMoreBtn.style.display = 'none';
+    } else {
+      loadMoreBtn.style.display = '';
+    }
+  }
+
+  // Load More click
+  loadMoreBtn.addEventListener('click', function() {
+    visibleCount += PAGE_SIZE;
+    render();
+  });
+
+  // Filter click
+  if (filterBar) {
+    filterBar.addEventListener('click', function(e) {
+      var btn = e.target.closest('.product-filter-btn');
+      if (!btn) return;
+
+      filterBar.querySelectorAll('.product-filter-btn').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+
+      currentFilter = btn.getAttribute('data-filter');
+      visibleCount = PAGE_SIZE;
+      render();
+    });
+  }
+
+  // Initial render
+  render();
+})();
+</script>
 {% endif %}
+
+<!-- Certifications Section -->
+<div class="certifications-section">
+  <div class="container">
+    <div class="certifications-title">
+      <h2>Our Certifications</h2>
+      <p>Our products meet the highest industry standards</p>
+    </div>
+    <div class="certifications-grid">
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/ASTM.jpg' | relative_url }}" alt="ASTM Certification" loading="lazy" />
+      </div>
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/CSA.jpg' | relative_url }}" alt="CSA Certification" loading="lazy" />
+      </div>
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/cUPC.jpg' | relative_url }}" alt="cUPC Certification" loading="lazy" />
+      </div>
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/IAPMO.jpg' | relative_url }}" alt="IAPMO Certification" loading="lazy" />
+      </div>
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/NSF.jpg' | relative_url }}" alt="NSF Certification" loading="lazy" />
+      </div>
+      <div class="certification-item">
+        <img src="{{ 'assets/images/certificates/UL.jpg' | relative_url }}" alt="UL Certification" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- {% if site.data.features %}
 <div class="strip strip-grey">

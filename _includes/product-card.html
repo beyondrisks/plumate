@@ -1,4 +1,4 @@
-<div class="product-card">
+<div class="product-card" data-category="{{ product.category }}">
   <div class="product-card-image">
     {% if product.image %}
       <img src="{{ product.image | relative_url }}" alt="{{ product.title }}" loading="lazy" />
@@ -16,8 +16,8 @@
     {% if product.description %}
       <p class="product-card-description">{{ product.description }}</p>
     {% endif %}
-    {% if product.price %}
+    {% comment %}{% if product.price %}
       <span class="product-card-price">{{ product.price }}</span>
-    {% endif %}
+    {% endif %}{% endcomment %}
   </div>
 </div>

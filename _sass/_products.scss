@@ -6,6 +6,58 @@
   background-color: #fafafa;
 }
 
+// Category Filter Bar
+.product-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 32px;
+  padding: 0 20px;
+
+  @media (max-width: 600px) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 2px;
+    }
+  }
+}
+
+.product-filter-btn {
+  padding: 8px 18px;
+  border: 2px solid #e0e0e0;
+  border-radius: 24px;
+  background: #ffffff;
+  color: #555;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $primary;
+    color: $primary;
+    background: rgba($primary, 0.05);
+  }
+
+  &.active {
+    background: $primary;
+    border-color: $primary;
+    color: #ffffff;
+  }
+}
+
 .products-section-title {
   text-align: center;
   margin-bottom: 40px;
@@ -45,6 +97,35 @@
   @media (max-width: 500px) {
     grid-template-columns: 1fr;
   }
+}
+
+// Load More
+.load-more-container {
+  text-align: center;
+  padding: 32px 20px 0;
+}
+
+.load-more-btn {
+  padding: 12px 36px;
+  border: 2px solid $primary;
+  border-radius: 28px;
+  background: transparent;
+  color: $primary;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $primary;
+    color: #ffffff;
+  }
+}
+
+.products-count {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #999;
 }
 
 .product-card {
@@ -134,4 +215,81 @@
   font-size: 1.125rem;
   font-weight: 700;
   color: #1a1a2e;
+}
+
+// Certifications Section
+// ======================
+
+.certifications-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+.certifications-title {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+}
+
+.certifications-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (max-width: 600px) {
+    gap: 20px;
+  }
+}
+
+.certification-item {
+  flex: 0 0 auto;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: grayscale(30%);
+    transition: filter 0.3s ease;
+  }
+
+  &:hover img {
+    filter: grayscale(0%);
+  }
+
+  @media (max-width: 600px) {
+    width: 90px;
+    height: 90px;
+    padding: 12px;
+  }
 }
