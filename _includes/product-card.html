@@ -1,6 +1,12 @@
-<div class="product-card" data-category="{{ product.category }}">
+<div class="product-card" data-category="{{ product.category }}" onclick="openProductModal(this)" style="cursor:pointer;"
+  data-title="{{ product.title }}"
+  data-description="{{ product.description }}"
+  data-category-name="{{ product.category }}"
+  data-full-image="{{ product.image | relative_url }}">
   <div class="product-card-image">
-    {% if product.image %}
+    {% if product.thumbnail %}
+      <img src="{{ product.thumbnail | relative_url }}" alt="{{ product.title }}" loading="lazy" />
+    {% elsif product.image %}
       <img src="{{ product.image | relative_url }}" alt="{{ product.title }}" loading="lazy" />
     {% else %}
       <div class="product-placeholder-image">
@@ -13,11 +19,5 @@
     {% if product.category %}
       <span class="product-card-category">{{ product.category }}</span>
     {% endif %}
-    {% if product.description %}
-      <p class="product-card-description">{{ product.description }}</p>
-    {% endif %}
-    {% comment %}{% if product.price %}
-      <span class="product-card-price">{{ product.price }}</span>
-    {% endif %}{% endcomment %}
   </div>
 </div>
