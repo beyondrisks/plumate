@@ -1,7 +1,7 @@
 <div class="product-card" data-category="{{ product.category }}" onclick="openProductModal(this)" style="cursor:pointer;"
-  data-title="{{ product.title }}"
-  data-description="{{ product.description }}"
-  data-category-name="{{ product.category }}"
+  data-title="{{ product.title | escape }}"
+  data-description="{{ product.description | escape }}"
+  data-category-name="{{ product.category | escape }}"
   data-full-image="{{ product.image | relative_url }}">
   <div class="product-card-image">
     {% if product.thumbnail %}

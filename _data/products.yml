@@ -20,34 +20,34 @@
 #   description: 3 Pcs KO Seal
 - title: 3 PCS KO Seal
   image: assets/images/products/thumbnails/3_pcs_ko_seal.jpg
-  category: 
+  category: PLUMBING SPECIALTIES
   price: 0
   description: 1/2" to 6"
 - title: 4 in 1 Brush
   image: assets/images/products/thumbnails/4_in_1_brush.jpg
-  category: Copper Fitting Brush
+  category: PLUMBING SPECIALTIES
   price: 0
   description: 1/2" and 3/4" Copper/SS Tube Threads Inside and Outside Cleaning
 - title: Adapter for Hose Kits
   image: assets/images/products/thumbnails/adapter_for_hose_kits.jpg
-  category: Adapter
+  category: ADAPTER
   price: 0
-  description: 1-1/4"FPT&1-1/2"MPT with 1-1/4" or 1-1/2" Barb
+  description: 1-1/4" FPT & 1-1/2" MPT with 1-1/4" or 1-1/2" Barb
 - title: Adapters of Water Heater Pan
   image: assets/images/products/thumbnails/adapters_of_water_heater_pan.jpg
-  category: Adapter
+  category: ADAPTER
   price: 0
   description: PVC and CPVC Adapters 
 - title: Adjustable Bracket Wider
   image: assets/images/products/thumbnails/adjustable_bracket.jpg
   category: PIPE SUPPORT
   price: 0
-  description: SBW17(10-1/4" to 17-1/2")&SBW24(14-1/2" to 24")
+  description: SBW17(10-1/4" to 17-1/2") & SBW24(14-1/2" to 24")
 - title: Adjustable Sliding Bracket
   image: assets/images/products/thumbnails/adjustable_sliding_bracket.jpg
   category: PIPE SUPPORT
   price: 0
-  description: SBS18(10" to 18")&SBS25(13" to 25")
+  description: SBS18(10" to 18") & SBS25(13" to 25")
 - title: Adjustable Swival Ring Hanger Cop
   image: assets/images/products/thumbnails/adjustable_swival_ring_hanger_cop.jpg
   category: PIPE SUPPORT
@@ -62,7 +62,7 @@
   image: assets/images/products/thumbnails/anti_short_bushing.jpg
   category: ELECTRICALS
   price: 0
-  description: #0-#4(cUL approval)
+  description: "#0 to #4(cUL approval)"
 - title: Bell Hanger
   image: assets/images/products/thumbnails/bell_hanger.jpg
   category: PIPE SUPPORT
@@ -70,34 +70,34 @@
   description: 1/2", 3/4", 1"
 - title: Boot Check Valve
   image: assets/images/products/thumbnails/boot_valve.jpg
-  category: SUMP PUMP&CHECK VALVE
+  category: SUMP PUMP & CHECK VALVE
   price: 0
   description: 1-1/2" Kit
 - title: Ceiling Plate Black
   image: assets/images/products/thumbnails/ceiling_plate_black.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/4",3/8",1/2"
+  description: 1/4", 3/8", 1/2"
 - title: Check Valve Inline Full Flow
   image: assets/images/products/thumbnails/check_valve_1.5in.jpg
-  category: CHECK VALVE
+  category: SUMP PUMP & CHECK VALVE
   price: 0
-  description: CVIN125(1-1/4" to 1-1/4"),CVIN125150(1-1/4" or1-1/2" to 1-1/4" to 1-1/2"),CVIN150(1-1/2" to 1-1/2")
+  description: CVIN125(1-1/4" to 1-1/4"), CVIN125150(1-1/4" or 1-1/2" to 1-1/4" to 1-1/2"), CVIN150(1-1/2" to 1-1/2")
 - title: Check Valve Screw Mounted
   image: assets/images/products/thumbnails/check_valve_2in.jpg
-  category: CHECK VALVE
+  category: SUMP PUMP & CHECK VALVE
   price: 0
-  description: CV125(1-1/4"),CV150(1-1/2"),CV200( 2")
+  description: CV125(1-1/4"), CV150(1-1/2"), CV200(2")
 - title: Cleanout Cover Bell
   image: assets/images/products/thumbnails/cleanout_cover_bell.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 4-1/2",5-1/2"
+  description: 4-1/2", 5-1/2"
 - title: Cleanout Cover Flat
   image: assets/images/products/thumbnails/cleanout_cover_flat.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 4-1/2",5-1/2"
+  description: 4-1/2", 5-1/2"
 - title: Clevis Hanger Cop
   image: assets/images/products/thumbnails/clevis_hanger_cop.jpg
   category: PIPE SUPPORT
@@ -115,14 +115,14 @@
   description: Copper Pipe Hanger
 - title: Drill Pump
   image: assets/images/products/thumbnails/drill_pump.jpg
-  category: PIPE SUPPORT
+  category: SUMP PUMP & CHECK VALVE
   price: 0
   description: Drill Pump and Drill Pump Kit
 - title: Drop In Anchor
   image: assets/images/products/thumbnails/drop_in_anchor.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 3/8",1/2"
+  description: 3/8", 1/2"
 - title: DWV Hanger Plastic Coated
   image: assets/images/products/thumbnails/dwv_hanger_plastic_coated.jpg
   category: PIPE SUPPORT
@@ -197,12 +197,12 @@
   image: assets/images/products/thumbnails/insulating_pipe_clamp.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2",3/4",1"
+  description: 1/2", 3/4", 1"
 - title: Acousto Clamp Cusioned
   image: assets/images/products/thumbnails/insulation_clamp_cusioned.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1/2",3/4"
+  description: 1/2", 3/4"
 - title: J Hanger Glav
   image: assets/images/products/thumbnails/j_hanger_glav.jpg
   category: PIPE SUPPORT
@@ -227,27 +227,27 @@
   image: assets/images/products/thumbnails/metal_escutcheon_plate.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 3/8",1/2"
+  description: 3/8", 1/2"
 - title: Metal Grade Stake
   image: assets/images/products/thumbnails/metal_grade_stake.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 18",24"
+  description: 18", 24"
 - title: MJ Hanger Plastic Coated
   image: assets/images/products/thumbnails/mj_hanger_plastic_coated.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1-1/2",2",3",4"
+  description: 1-1/2", 2", 3", 4"
 - title: MJ Hanger
   image: assets/images/products/thumbnails/mj_hanger.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1-1/2",2",3",4"
+  description: 1-1/2", 2", 3", 4"
 - title: Nail Clip
   image: assets/images/products/thumbnails/nail_clip.jpg
   category: PIPE SUPPORT
   price: 0
-  description: PL30(Plastic Dipped),PL40(Plastic Dipped),Copper and Galv plated available
+  description: PL30(Plastic Dipped), PL40(Plastic Dipped), Copper and Galv plated available
 - title: Non Metalic Cable Connector
   image: assets/images/products/thumbnails/non_metalic_cable_connector.jpg
   category: ELECTRICALS
@@ -257,7 +257,7 @@
   image: assets/images/products/thumbnails/nylon_strain_relief_connector.jpg
   category: ELECTRICALS
   price: 0
-  description: 3/8",1/2",3/4",1"
+  description: 3/8", 1/2", 3/4", 1"
 - title: One Hole Strap Galv
   image: assets/images/products/thumbnails/one_hole_strap_galv.jpg
   category: PIPE SUPPORT
@@ -277,17 +277,17 @@
   image: assets/images/products/thumbnails/pex_bend_support_metal.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 3/8",1/2"
+  description: 3/8", 1/2"
 - title: Pex Bend Support Plastic
   image: assets/images/products/thumbnails/pex_bend_support_plastic.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 3/8",1/2",3/4"
+  description: 3/8", 1/2", 3/4"
 - title: Pex Bend Support With Square Metal
   image: assets/images/products/thumbnails/pex_bend_support_with_square_metal.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 3/8",1/2",3/4"
+  description: 3/8", 1/2", 3/4"
 - title: Pex Bend Support with Square
   image: assets/images/products/thumbnails/pex_bend_support_with_square.jpg
   category: PIPE SUPPORT
@@ -302,17 +302,17 @@
   image: assets/images/products/thumbnails/pipe_bracket_combi.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 3/8"&1/2"&3/4"combination holes,18" and 26" length available
+  description: 3/8" & 1/2" & 3/4" combination holes, 18" and 26" length available
 - title: Pipe Bracket
   image: assets/images/products/thumbnails/pipe_bracket.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2"hole,20" and 26" availlable
+  description: 1/2" hole, 20" and 26" availlable
 - title: Pipe Coupler Cop
   image: assets/images/products/thumbnails/pipe_coupler_cop.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2",3/4",1"
+  description: 1/2", 3/4", 1"
 - title: PVC Pipe Coupler
   image: assets/images/products/thumbnails/pipe_coupler.jpg
   category: PLUMBING SPECIALTIES
@@ -327,7 +327,7 @@
   image: assets/images/products/thumbnails/pre_tied_ceiling_wire.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 6',8',10',12'
+  description: 6', 8', 10', 12'
 - title: Proforma Adapter
   image: assets/images/products/thumbnails/proforma_adapter_4in.jpg
   category: PLUMBING SPECIALTIES
@@ -367,7 +367,7 @@
   image: assets/images/products/thumbnails/roof_jack_universal.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: RN3(1/2",3/4",1" 3 in 1),RN4(1-1/2",2",2-1/2",3" 4 in 1)RN5(1-1/4",1-1/2",2",3",4" 5 in 1)
+  description: RN3(1/2", 3/4", 1" 3 in 1), RN4(1-1/2", 2", 2-1/2", 3" 4 in 1)RN5(1-1/4", 1-1/2", 2", 3", 4" 5 in 1)
 - title: Rubber Clip
   image: assets/images/products/thumbnails/rubber_clip.jpg
   category: PLUMBING SPECIALTIES
@@ -377,12 +377,12 @@
   image: assets/images/products/thumbnails/safety_plate.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1-1/2"X3",1-1/2"X6",1-1/2"X9"(16Ga,18Ga available)
+  description: 1-1/2"X3", 1-1/2"X6", 1-1/2"X9"(16Ga, 18Ga available)
 - title: Sammy Screw
   image: assets/images/products/thumbnails/sammy_screw.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: Vertical and Side mount for wood,metal and concrete available
+  description: Vertical and Side mount for wood, metal and concrete available
 - title: Service Weight Gasket
   image: assets/images/products/thumbnails/service_weight_gasket.jpg
   category: PLUMBING SPECIALTIES
@@ -392,7 +392,7 @@
   image: assets/images/products/thumbnails/side_beam_clamp.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 3/8",1/2"
+  description: 3/8", 1/2"
 - title: Sliding Bar Bracket With Clamps
   image: assets/images/products/thumbnails/sliding_bar_bracket_with_clamps.jpg
   category: PLUMBING SPECIALTIES
@@ -447,12 +447,12 @@
   image: assets/images/products/thumbnails/street_key.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1/2"x28",5/8"x36"
+  description: 1/2"x28", 5/8"x36"
 - title: Strut Channel
   image: assets/images/products/thumbnails/strut_channel.jpg
   category: PIPE SUPPORT
   price: 0
-  description: Low and Deep Channel for plumbing and electrical(Plain,Pre-Gal,Hot Dipped available)
+  description: Low and Deep Channel for plumbing and electrical(Plain, Pre-Gal, Hot Dipped available)
 - title: Strut Clamp Cop
   image: assets/images/products/thumbnails/strut_clamp_cop.jpg
   category: PIPE SUPPORT
@@ -472,17 +472,17 @@
   image: assets/images/products/thumbnails/stubout_bracket.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 20"and 26" Length with 1-3/8" Notched Holes
+  description: 20" and 26" Length with 1-3/8" Notched Holes
 - title: Stud Insulating Clamp
   image: assets/images/products/thumbnails/stud_insulating_clamp.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2",3/4",1"
+  description: 1/2", 3/4", 1"
 - title: Stud Plate
   image: assets/images/products/thumbnails/stud_plate.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1-1/2"x9",1-1/2"x12",all sizes available
+  description: 1-1/2"x9", 1-1/2"x12", all sizes available
 - title: Subout Bracket Angle
   image: assets/images/products/thumbnails/subout_bracket_angle.jpg
   category: PLUMBING SPECIALTIES
@@ -492,7 +492,7 @@
   image: assets/images/products/thumbnails/suspension_clamp_cusioned.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1/2",3/4",1",1-1/4"
+  description: 1/2", 3/4", 1", 1-1/4"
 - title: Suspension Clamp Plastic
   image: assets/images/products/thumbnails/suspension_clamp_plastic.jpg
   category: PLUMBING SPECIALTIES
@@ -502,12 +502,12 @@
   image: assets/images/products/thumbnails/test_cap_with.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1-1/2",2",3",4"
+  description: 1-1/2", 2", 3", 4"
 - title: Test Plug
   image: assets/images/products/thumbnails/test_plug.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1-1/2",2",3",4",5",6"
+  description: 1-1/2", 2", 3", 4", 5", 6"
 - title: Toilet Flange Kits
   image: assets/images/products/thumbnails/toilet_flange_kits.jpg
   category: PLUMBING SPECIALTIES
@@ -517,7 +517,7 @@
   image: assets/images/products/thumbnails/toilet_flange_metal_coated.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: Red,Blue,etc...
+  description: Red, Blue, etc...
 - title: Toilet Flange Stainless Steel
   image: assets/images/products/thumbnails/toilet_flange_stainless_steel.jpg
   category: PLUMBING SPECIALTIES
@@ -532,7 +532,7 @@
   image: assets/images/products/thumbnails/top_beam_clamp.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 3/8",1/2",3/4"(wide jaw available)
+  description: 3/8", 1/2", 3/4"(wide jaw available)
 # - title: Top Mount Clamp (2)
 #   image: assets/images/products/thumbnails/top_mount_clamp_(2).jpg
 #   category: PLUMBING SPECIALTIES
@@ -542,7 +542,7 @@
   image: assets/images/products/thumbnails/top_mount_clamp.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 1/2",3/4"
+  description: 1/2", 3/4"
 - title: Tube Clamp Plastic
   image: assets/images/products/thumbnails/tube_clamp_plastic.jpg
   category: PIPE SUPPORT
@@ -582,12 +582,12 @@
   image: assets/images/products/thumbnails/water_heater_pan_aluminum.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 20",22",24",26",28",30"
+  description: 20", 22", 24", 26", 28", 30"
 - title: Water Heater Pan Plastic
   image: assets/images/products/thumbnails/water_heater_pan_plastic.jpg
   category: PLUMBING SPECIALTIES
   price: 0
-  description: 20",22",24",26",28",30"
+  description: 20", 22", 24", 26", 28", 30"
 - title: Water Heater Tabel
   image: assets/images/products/thumbnails/water_heater_tabel.jpg
   category: PLUMBING SPECIALTIES
@@ -612,9 +612,9 @@
   image: assets/images/products/thumbnails/wire_hook_cop.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2"X6", 3/4"X6",1"X6",etc...
+  description: 1/2"X6", 3/4"X6", 1"X6", etc...
 - title: Wire Hook Plastic Coated
   image: assets/images/products/thumbnails/wire_hook_plastic_coated.jpg
   category: PIPE SUPPORT
   price: 0
-  description: 1/2"X6", 3/4"X6",1"X6",etc...
+  description: 1/2"X6", 3/4"X6", 1"X6", etc...

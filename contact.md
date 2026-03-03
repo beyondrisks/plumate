@@ -4,13 +4,13 @@ layout: contact
 description: Get in touch with Plumate. We'd love to hear from you.
 ---
 
-# Contact Us
+<!-- # Contact Us -->
 
 We'd love to hear from you! Reach out to us with any questions about our products or services.
 
 ## Get In Touch
 
-- **Email**: info@example.com
+- **Email**: info@plumateco.com
 - **Phone**: (555) 123-4567
 - **Address**: 123 Business Street, City, State 12345
 

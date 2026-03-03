@@ -8,13 +8,16 @@ logo:
   mobile: "images/logo/logo_mobile1.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo1.png"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  desktop: "images/logo/plumate.png"
+  desktop_height: "60px"
+  desktop_width: "60px"
+  # desktop: "images/logo/logo1.png"
+  # desktop_height: "32px"
+  # desktop_width: "120px"
 
 # Company contact details
 contact:
-  email: "info@example.com"
+  email: "info@plumateco.com"
   phone: "(555) 123-4567"
   address: "123 Business Street, City, State 12345"
 
