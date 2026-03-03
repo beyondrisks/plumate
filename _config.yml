@@ -5,10 +5,10 @@ title: 'Plumate'
 description: 'Your trusted source for quality products'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo_mobile1.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "images/logo/logo1.png"
   desktop_height: "32px"
   desktop_width: "120px"
 
