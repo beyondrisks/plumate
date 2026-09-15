@@ -20,4 +20,56 @@
       <span class="product-card-category">{{ product.category }}</span>
     {% endif %}
   </div>
+  {% if product.features or product.specifications or product.dimensions or product.datasheet %}
+  <div class="product-card-details" hidden>
+    {% if product.features %}
+    <h3 class="product-detail-heading">Features</h3>
+    <ul class="product-detail-features">
+      {% for feature in product.features %}
+      <li>{{ feature }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if product.specifications %}
+    <h3 class="product-detail-heading">Specifications</h3>
+    <table class="product-detail-table">
+      <tbody>
+        {% for spec in product.specifications %}
+        <tr>
+          <th>{{ spec.label }}</th>
+          <td>{{ spec.value }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+    {% if product.dimensions %}
+    <h3 class="product-detail-heading">Product Dimensions</h3>
+    <table class="product-detail-table">
+      <thead>
+        <tr>
+          {% for h in product.dimensions.header %}
+          <th>{{ h }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in product.dimensions.rows %}
+        <tr>
+          {% for cell in row %}
+          <td>{{ cell }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if product.dimensions.note %}
+    <p class="product-detail-note">{{ product.dimensions.note }}</p>
+    {% endif %}
+    {% endif %}
+    {% if product.datasheet %}
+    <a class="product-detail-datasheet" href="{{ product.datasheet | relative_url }}" target="_blank" rel="noopener">Download technical data sheet (PDF)</a>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>

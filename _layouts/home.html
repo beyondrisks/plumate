@@ -172,25 +172,37 @@ bodyClass: "page-home"
 <div class="product-modal-overlay" id="productModal">
   <div class="product-modal">
     <button class="product-modal-close" id="modalClose">&times;</button>
-    <div class="product-modal-image">
-      <img id="modalImage" src="" alt="" />
+    <div class="product-modal-top">
+      <div class="product-modal-info">
+        <h2 id="modalTitle"></h2>
+        <span id="modalCategory" class="product-modal-category"></span>
+        <p id="modalDescription"></p>
+      </div>
+      <div class="product-modal-image">
+        <img id="modalImage" src="" alt="" />
+      </div>
     </div>
-    <div class="product-modal-info">
-      <h2 id="modalTitle"></h2>
-      <span class="product-modal-category" id="modalCategory"></span>
-      <p id="modalDescription"></p>
-    </div>
+    <div id="modalDetails" class="product-modal-details"></div>
   </div>
 </div>
 
 <script>
 function openProductModal(card) {
   var modal = document.getElementById('productModal');
-  document.getElementById('modalImage').src = card.getAttribute('data-full-image');
-  document.getElementById('modalImage').alt = card.getAttribute('data-title');
+  var fullImage = card.getAttribute('data-full-image');
+  var modalImage = document.getElementById('modalImage');
+  if (fullImage) {
+    modalImage.src = fullImage;
+  } else {
+    modalImage.removeAttribute('src');
+  }
+  modalImage.alt = card.getAttribute('data-title');
+  modal.querySelector('.product-modal').classList.toggle('no-image', !fullImage);
   document.getElementById('modalTitle').textContent = card.getAttribute('data-title');
   document.getElementById('modalCategory').textContent = card.getAttribute('data-category-name');
   document.getElementById('modalDescription').textContent = card.getAttribute('data-description');
+  var details = card.querySelector('.product-card-details');
+  document.getElementById('modalDetails').innerHTML = details ? details.innerHTML : '';
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
 }
