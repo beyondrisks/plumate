@@ -335,11 +335,35 @@
   description: Acousto Clamp
 
 # ===== E9 (#96 High Ear Acousto Clamp) =====
-- title: High Ear Acousto Clamp
+- title: Acoustic Lining Suspension Clamp
   image: assets/images/products/thumbnails/suspension_clamp_cusioned.jpg
   category: Pipe Hangers and Clamps
   price: 0
-  description: 1/2", 3/4", 1", 1-1/4"
+  description: Combined pipe mounting and vibration/noise isolation, 1/2" to 1-1/4" CTS
+  datasheet: assets/documents/PLUMATE_Acoustic_Lining_Suspension_Clamp_Technical_Data_Sheet2.pdf
+  features:
+    - Diverse pipe isolation solution designed to dampen noise from rattling pipes
+    - Reliable and secure pipe mounting; helps prevent loosening of wood wedges or pipe hooks
+    - Pipe mount and isolator in one; absorbs vibration typically transmitted by water velocity and disruptions in water flow
+    - Designed to remain stable under normal hot-water temperatures
+    - Compatible with copper, PEX, CPVC, cast iron, and other pipe materials
+  specifications:
+    - label: Primary use
+      value: Pipe mounting and vibration/noise isolation
+    - label: Compatible materials
+      value: Copper, PEX, CPVC, cast iron, and other common plumbing pipe materials
+    - label: Product type
+      value: Acoustic suspension clamp with integrated isolator
+    - label: Clamp chassis
+      value: Polypropylene
+  dimensions:
+    header: ["Item #", "A (CTS)", "B", "C", "D", "E"]
+    rows:
+      - [AC-SC012, 1/2", 2.2", 1.15", 0.91", 0.14"]
+      - [AC-SC034, 3/4", 3.0", 1.45", 1.22", 0.14"]
+      - [AC-SC001, 1", 3.0", 1.70", 1.22", 0.14"]
+      - [AC-SC114, 1-1/4", 3.1", 2.00", 1.22", 0.14"]
+    note: Dimensions and material descriptions are presented as supplied in the original product specification. Verify project-specific requirements and installation conditions before use.
 
 # ===== E10 (#40 Acousto Clamp Cusioned) =====
 - title: Acousto Clamp Cusioned
@@ -834,36 +858,5 @@
   category: Pipe Brackets
   price: 0
   description: SBS18, SBS26
-
-# ===== 剩余（不在PDF格子中） Acoustic Lining Suspension Clamp =====
-- title: Acoustic Lining Suspension Clamp
-  image: assets/images/products/thumbnails/suspension_clamp_cusioned.jpg
-  category: Pipe Hangers and Clamps
-  price: 0
-  description: Combined pipe mounting and vibration/noise isolation, 1/2" to 1-1/4" CTS
-  datasheet: assets/documents/PLUMATE_Acoustic_Lining_Suspension_Clamp_Technical_Data_Sheet2.pdf
-  features:
-    - Diverse pipe isolation solution designed to dampen noise from rattling pipes
-    - Reliable and secure pipe mounting; helps prevent loosening of wood wedges or pipe hooks
-    - Pipe mount and isolator in one; absorbs vibration typically transmitted by water velocity and disruptions in water flow
-    - Designed to remain stable under normal hot-water temperatures
-    - Compatible with copper, PEX, CPVC, cast iron, and other pipe materials
-  specifications:
-    - label: Primary use
-      value: Pipe mounting and vibration/noise isolation
-    - label: Compatible materials
-      value: Copper, PEX, CPVC, cast iron, and other common plumbing pipe materials
-    - label: Product type
-      value: Acoustic suspension clamp with integrated isolator
-    - label: Clamp chassis
-      value: Polypropylene
-  dimensions:
-    header: ["Item #", "A (CTS)", "B", "C", "D", "E"]
-    rows:
-      - [AC-SC012, 1/2", 2.2", 1.15", 0.91", 0.14"]
-      - [AC-SC034, 3/4", 3.0", 1.45", 1.22", 0.14"]
-      - [AC-SC001, 1", 3.0", 1.70", 1.22", 0.14"]
-      - [AC-SC114, 1-1/4", 3.1", 2.00", 1.22", 0.14"]
-    note: Dimensions and material descriptions are presented as supplied in the original product specification. Verify project-specific requirements and installation conditions before use.
 
 
