@@ -11,7 +11,7 @@ We'd love to hear from you! Reach out to us with any questions about our product
 ## Get In Touch
 
 - **Email**: info@plumateco.com
-- **Phone**: (555) 123-4567
+<!-- - **Phone**: (555) 123-4567 -->
 - **Address**: 123 Business Street, City, State 12345
 
 ## Business Hours

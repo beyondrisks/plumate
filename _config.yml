@@ -5,10 +5,10 @@ title: 'Plumate'
 description: 'Your trusted source for quality products'
 
 logo:
-  mobile: "images/logo/logo_mobile1.png"
+  mobile: "images/logo/94.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/plumate.png"
+  desktop: "images/logo/94.png"
   desktop_height: "60px"
   desktop_width: "60px"
   # desktop: "images/logo/logo1.png"
@@ -18,7 +18,7 @@ logo:
 # Company contact details
 contact:
   email: "info@plumateco.com"
-  phone: "(555) 123-4567"
+  # phone: "(555) 123-4567"
   address: "123 Business Street, City, State 12345"
 
 home:
